@@ -1,0 +1,65 @@
+input,scorer_name,scorer_value,product_name
+Fantail,ratio,57.14285714285714,Mandala
+Fantail,partial_ratio,100.0,Junior Learning Fantail Books Turquoise Non Fiction Educational Action Games
+Fantail,token_sort_ratio,57.14285714285714,Mandala
+Fantail,partial_token_sort_ratio,100.0,Junior Learning Fantail Books Turquoise Non Fiction Educational Action Games
+Fantail,token_set_ratio,100.0,Junior Learning Fantail Books Turquoise Non Fiction Educational Action Games
+Fantail,partial_token_set_ratio,100.0,Junior Learning Fantail Books Turquoise Non Fiction Educational Action Games
+Fantail,Q_ratio,57.14285714285714,Mandala
+Fantail,W_ratio,75.00000000000001,Fantasy Flight Games Elder Sign
+Learning,ratio,52.63157894736843,Party Bingo
+Learning,partial_ratio,100.0,"The Learning Journey ABC Melody Maker, Primary"
+Learning,token_sort_ratio,53.84615384615385,Ringing Basketball
+Learning,partial_token_sort_ratio,100.0,"The Learning Journey ABC Melody Maker, Primary"
+Learning,token_set_ratio,100.0,"The Learning Journey ABC Melody Maker, Primary"
+Learning,partial_token_set_ratio,100.0,"The Learning Journey ABC Melody Maker, Primary"
+Learning,Q_ratio,52.63157894736843,Party Bingo
+Learning,W_ratio,90.0,"The Learning Journey ABC Melody Maker, Primary"
+Turquoise,ratio,47.05882352941176,Quoridor
+Turquoise,partial_ratio,100.0,"PRANG Refill Pans for Oval Watercolor Paint Set, 12 Pans per Box, Turquoise Blue (00819)"
+Turquoise,token_sort_ratio,48.0,DJECO Batasaurus
+Turquoise,partial_token_sort_ratio,100.0,"PRANG Refill Pans for Oval Watercolor Paint Set, 12 Pans per Box, Turquoise Blue (00819)"
+Turquoise,token_set_ratio,100.0,"PRANG Refill Pans for Oval Watercolor Paint Set, 12 Pans per Box, Turquoise Blue (00819)"
+Turquoise,partial_token_set_ratio,100.0,"PRANG Refill Pans for Oval Watercolor Paint Set, 12 Pans per Box, Turquoise Blue (00819)"
+Turquoise,Q_ratio,47.05882352941176,Quoridor
+Turquoise,W_ratio,90.0,"SugarSugar Dance Craze Leg Warmers, Turquoise, One Size"
+Fiction,ratio,46.15384615384615,Qwinto
+Fiction,partial_ratio,100.0,Junior Learning Blend Readers Fiction Toy
+Fiction,token_sort_ratio,46.15384615384615,Qwinto
+Fiction,partial_token_sort_ratio,100.0,Junior Learning Blend Readers Fiction Toy
+Fiction,token_set_ratio,100.0,Junior Learning Blend Readers Fiction Toy
+Fiction,partial_token_set_ratio,100.0,Junior Learning Blend Readers Fiction Toy
+Fiction,Q_ratio,46.15384615384615,Qwinto
+Fiction,W_ratio,90.0,Junior Learning Blend Readers Fiction Toy
+Non Fiction Educational Games,ratio,59.09090909090908,Junior Learning Comprehension Dice Educational Action Games
+Non Fiction Educational Games,partial_ratio,86.20689655172413,Junior Learning Fantail Books Turquoise Non Fiction Educational Action Games
+Non Fiction Educational Games,token_sort_ratio,60.60606060606061,Edupress Fact or Fiction? Game (EP60268)
+Non Fiction Educational Games,partial_token_sort_ratio,81.4814814814815,"Educational Insights My First Game: Tail Trails, Multicolor"
+Non Fiction Educational Games,token_set_ratio,100.0,Junior Learning Fantail Books Turquoise Non Fiction Educational Action Games
+Non Fiction Educational Games,partial_token_set_ratio,100.0,Educational Insights Nancy B's Science Club Binoculars and Wildlife Activity Journal
+Non Fiction Educational Games,Q_ratio,59.09090909090908,Junior Learning Comprehension Dice Educational Action Games
+Non Fiction Educational Games,W_ratio,85.5,Educational Insights Nancy B's Science Club Binoculars and Wildlife Activity Journal
+Fantail Books,ratio,56.25,Fantastic Factories
+Fantail Books,partial_ratio,100.0,Junior Learning Fantail Books Turquoise Non Fiction Educational Action Games
+Fantail Books,token_sort_ratio,56.25,Fantastic Factories
+Fantail Books,partial_token_sort_ratio,76.92307692307692,"Fantasy Fields TD-12806A Girls Ballet Swan Lake Ballerina Set of Bookends, White/Pink"
+Fantail Books,token_set_ratio,100.0,Junior Learning Fantail Books Turquoise Non Fiction Educational Action Games
+Fantail Books,partial_token_set_ratio,100.0,Coloring Books Ella Drawing Book
+Fantail Books,Q_ratio,56.25,Fantastic Factories
+Fantail Books,W_ratio,90.0,Junior Learning Fantail Books Turquoise Non Fiction Educational Action Games
+Junior Books,ratio,54.54545454545454,SET Junior Board Game
+Junior Books,partial_ratio,75.0,SET Junior Board Game
+Junior Books,token_sort_ratio,54.54545454545454,SET Junior Board Game
+Junior Books,partial_token_sort_ratio,75.0,Juniors Go Go Girl Black Costume (Standard;Child Large)
+Junior Books,token_set_ratio,100.0,Junior Learning Fantail Books Turquoise Non Fiction Educational Action Games
+Junior Books,partial_token_set_ratio,100.0,Scrabble Junior Game
+Junior Books,Q_ratio,54.54545454545454,SET Junior Board Game
+Junior Books,W_ratio,85.5,Scrabble Junior Game
+Fiction Action Games,ratio,62.22222222222222,Multiplication Bingo Game
+Fiction Action Games,partial_ratio,87.17948717948718,Junior Learning Place Value Dominoes Educational Action Games
+Fiction Action Games,token_sort_ratio,60.37735849056604,Transformers Cogman Action Figure
+Fiction Action Games,partial_token_sort_ratio,85.0,Junior Learning Fantail Books Turquoise Non Fiction Educational Action Games
+Fiction Action Games,token_set_ratio,100.0,Junior Learning Fantail Books Turquoise Non Fiction Educational Action Games
+Fiction Action Games,partial_token_set_ratio,100.0,TAMASHII NATIONS Bandai S.H. Figuarts Captain America & Tamashii Effect Explosion Avengers: Infinity War Action Figure
+Fiction Action Games,Q_ratio,62.22222222222222,Multiplication Bingo Game
+Fiction Action Games,W_ratio,85.5,TAMASHII NATIONS Bandai S.H. Figuarts Captain America & Tamashii Effect Explosion Avengers: Infinity War Action Figure
