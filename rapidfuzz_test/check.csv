@@ -1,0 +1,97 @@
+input,scorer_name,scorer_value,product_name
+Learninc,ratio,50.0,Pandemic
+Learninc,ratio,42.10526315789473,Learning Resources Pan Balance
+Learninc,partial_ratio,93.33333333333333,"Learning Resources Serve It Up! Play Restaurant, Pretend Restaurant Set, 35 Pieces, Ages 3+"
+Learninc,partial_ratio,93.33333333333333,"Learning Resources Base Ten Blocks Smart Pack, Early Childhood Math Skills, Ages 5+"
+Learninc,token_sort_ratio,50.0,Pandemic
+Learninc,token_sort_ratio,47.05882352941176,Teach My Baby Learning Kit
+Learninc,partial_token_sort_ratio,93.33333333333333,VTech Rattle & Waggle Learning Pup
+Learninc,partial_token_sort_ratio,87.5,"The Learning Journey ABC Melody Maker, Primary"
+Learninc,token_set_ratio,50.0,Pandemic
+Learninc,token_set_ratio,47.05882352941177,Teach My Baby Learning Kit
+Learninc,partial_token_set_ratio,93.33333333333333,VTech Rattle & Waggle Learning Pup
+Learninc,partial_token_set_ratio,87.5,"The Learning Journey ABC Melody Maker, Primary"
+Learninc,Q_ratio,50.0,Pandemic
+Learninc,Q_ratio,42.10526315789473,Learning Resources Pan Balance
+Learninc,W_ratio,84.0,Learning Resources Attribute Beads Set
+Learninc,W_ratio,84.0,"Learning Resources Tabletop Tripod Magnifier, 4x Magnifier"
+Turqooise,ratio,46.15384615384615,"Aurora 8"" Woolsey"
+Turqooise,ratio,44.44444444444444,Crossfire
+Turqooise,partial_ratio,88.88888888888889,"PRANG Refill Pans for Oval Watercolor Paint Set, 12 Pans per Box, Turquoise Blue (00819)"
+Turqooise,partial_ratio,88.88888888888889,"Lush Decor Llama Striped Quilt Reversible 4 Piece Kids Bedding Set, Twin, Pink and Turquoise"
+Turqooise,token_sort_ratio,48.0,"Aurora 8"" Woolsey"
+Turqooise,token_sort_ratio,44.44444444444444,Crossfire
+Turqooise,partial_token_sort_ratio,88.88888888888889,"PRANG Refill Pans for Oval Watercolor Paint Set, 12 Pans per Box, Turquoise Blue (00819)"
+Turqooise,partial_token_sort_ratio,88.88888888888889,"Lush Decor Llama Striped Quilt Reversible 4 Piece Kids Bedding Set, Twin, Pink and Turquoise"
+Turqooise,token_set_ratio,48.0,"Aurora 8"" Woolsey"
+Turqooise,token_set_ratio,44.44444444444444,Crossfire
+Turqooise,partial_token_set_ratio,88.88888888888889,"PRANG Refill Pans for Oval Watercolor Paint Set, 12 Pans per Box, Turquoise Blue (00819)"
+Turqooise,partial_token_set_ratio,88.88888888888889,"Lush Decor Llama Striped Quilt Reversible 4 Piece Kids Bedding Set, Twin, Pink and Turquoise"
+Turqooise,Q_ratio,46.15384615384615,"Aurora 8"" Woolsey"
+Turqooise,Q_ratio,44.44444444444444,Crossfire
+Turqooise,W_ratio,80.0,"SugarSugar Dance Craze Leg Warmers, Turquoise, One Size"
+Turqooise,W_ratio,80.0,"SunWorks Construction Paper, Turquoise, 9"" x 12"", 50 Sheets"
+Fection,ratio,44.44444444444444,Cosmic Eons
+Fection,ratio,44.44444444444444,Specter Ops
+Fection,partial_ratio,100.0,"Purr-Fection Smoky Junior Black Bear 9"" Plush"
+Fection,partial_ratio,92.3076923076923,"Whitmor Kids Canvas Collapsible Cube-10 x 10 x 10 inches, Pink, Owl Collection"
+Fection,token_sort_ratio,47.05882352941176,Simon Game
+Fection,token_sort_ratio,44.44444444444444,Cosmic Eons
+Fection,partial_token_sort_ratio,100.0,"Purr-Fection Smoky Junior Black Bear 9"" Plush"
+Fection,partial_token_sort_ratio,85.71428571428572,amscan Thank Yous | Hello Kitty Collection | Party Accessory
+Fection,token_set_ratio,100.0,"Purr-Fection Smoky Junior Black Bear 9"" Plush"
+Fection,token_set_ratio,47.05882352941177,Simon Game
+Fection,partial_token_set_ratio,100.0,"Purr-Fection Smoky Junior Black Bear 9"" Plush"
+Fection,partial_token_set_ratio,85.71428571428572,amscan Thank Yous | Hello Kitty Collection | Party Accessory
+Fection,Q_ratio,44.44444444444444,Cosmic Eons
+Fection,Q_ratio,44.44444444444444,Specter Ops
+Fection,W_ratio,90.0,"Purr-Fection Smoky Junior Black Bear 9"" Plush"
+Fection,W_ratio,83.07692307692308,Mongoose Kids Mountain Bike Helmet Zone Collection
+Fantaik Bools,ratio,56.25,Fantastic Factories
+Fantaik Bools,ratio,55.172413793103445,Magnetic Marbles
+Fantaik Bools,partial_ratio,84.61538461538461,Junior Learning Fantail Books Turquoise Non Fiction Educational Action Games
+Fantaik Bools,partial_ratio,66.66666666666667,Fantastic Beast Macusa Triangle Eye Pewter Lapel Pin
+Fantaik Bools,token_sort_ratio,56.25,Fantastic Factories
+Fantaik Bools,token_sort_ratio,52.17391304347826,"Clank!, Base"
+Fantaik Bools,partial_token_sort_ratio,72.72727272727273,"Fantasy Fields - Sunny Safari Toy Organizer with Rolling Storage Box, Wooden Toy Storage"
+Fantaik Bools,partial_token_sort_ratio,69.23076923076923,"Fantasy Fields TD-12806A Girls Ballet Swan Lake Ballerina Set of Bookends, White/Pink"
+Fantaik Bools,token_set_ratio,56.25,Fantastic Factories
+Fantaik Bools,token_set_ratio,52.17391304347826,"Clank!, Base"
+Fantaik Bools,partial_token_set_ratio,72.72727272727273,"Fantasy Fields - Sunny Safari Toy Organizer with Rolling Storage Box, Wooden Toy Storage"
+Fantaik Bools,partial_token_set_ratio,69.23076923076923,"Fantasy Fields TD-12806A Girls Ballet Swan Lake Ballerina Set of Bookends, White/Pink"
+Fantaik Bools,Q_ratio,56.25,Fantastic Factories
+Fantaik Bools,Q_ratio,55.172413793103445,Magnetic Marbles
+Fantaik Bools,W_ratio,76.15384615384616,Junior Learning Fantail Books Turquoise Non Fiction Educational Action Games
+Fantaik Bools,W_ratio,62.18181818181819,"Fantasy Fields - Sunny Safari Toy Organizer with Rolling Storage Box, Wooden Toy Storage"
+Junior Books,ratio,54.54545454545454,SET Junior Board Game
+Junior Books,ratio,48.275862068965516,"Aurora 8"" Woolsey"
+Junior Books,partial_ratio,75.0,SET Junior Board Game
+Junior Books,partial_ratio,75.0,Engino - Classroom & Makerspace Solutions | Junior Robotics Set - Advanced Stem Learning Activities - Beginner Friendly Coding
+Junior Books,token_sort_ratio,54.54545454545454,SET Junior Board Game
+Junior Books,token_sort_ratio,48.484848484848484,"Aurora 8"" Pink Unicorn"
+Junior Books,partial_token_sort_ratio,75.0,Juniors Go Go Girl Black Costume (Standard;Child Large)
+Junior Books,partial_token_sort_ratio,75.0,"Propel Trampolines PTS55-RE Junior Trampoline with Enclosure, 55"", Red"
+Junior Books,token_set_ratio,100.0,Junior Learning Fantail Books Turquoise Non Fiction Educational Action Games
+Junior Books,token_set_ratio,66.66666666666666,Scrabble Junior Game
+Junior Books,partial_token_set_ratio,100.0,Scrabble Junior Game
+Junior Books,partial_token_set_ratio,100.0,"PlayWheels Teenage Mutant Ninja Turtles Roller Skates with Knee Pads, Green/Blue, Junior Size 6-12"
+Junior Books,Q_ratio,54.54545454545454,SET Junior Board Game
+Junior Books,Q_ratio,48.275862068965516,"Aurora 8"" Woolsey"
+Junior Books,W_ratio,85.5,Scrabble Junior Game
+Junior Books,W_ratio,85.5,Coloring Books Ella Drawing Book
+Fiktion Action Ganes,ratio,57.14285714285714,International Concepts
+Fiktion Action Ganes,ratio,54.16666666666667,WWE Kurt Angle Action Figure
+Fiktion Action Ganes,partial_ratio,82.05128205128204,Junior Learning Place Value Dominoes Educational Action Games
+Fiktion Action Ganes,partial_ratio,82.05128205128204,Junior Learning Ten Frame Bingo Educational Action Games
+Fiktion Action Ganes,token_sort_ratio,56.60377358490566,Transformers Cogman Action Figure
+Fiktion Action Ganes,token_sort_ratio,56.00000000000001,WWE Austin Aries Action Figure
+Fiktion Action Ganes,partial_token_sort_ratio,75.0,"Transformers Toys Cyberverse Action Attackers: 1-Step Changer Skybyte Action Figure - Repeatable Driller Drive Action Attack - for Kids Ages 6 & Up, 4.25"""
+Fiktion Action Ganes,partial_token_sort_ratio,75.0,Junior Learning Fantail Books Turquoise Non Fiction Educational Action Games
+Fiktion Action Ganes,token_set_ratio,56.60377358490566,Transformers Cogman Action Figure
+Fiktion Action Ganes,token_set_ratio,56.0,WWE Austin Aries Action Figure
+Fiktion Action Ganes,partial_token_set_ratio,100.0,TAMASHII NATIONS Bandai S.H. Figuarts Captain America & Tamashii Effect Explosion Avengers: Infinity War Action Figure
+Fiktion Action Ganes,partial_token_set_ratio,100.0,The Corps Special Forces Action Figures & Vehicle Deluxe Playset (Packaging & Colors May Vary)
+Fiktion Action Ganes,Q_ratio,57.14285714285714,International Concepts
+Fiktion Action Ganes,Q_ratio,54.16666666666667,WWE Kurt Angle Action Figure
+Fiktion Action Ganes,W_ratio,85.5,TAMASHII NATIONS Bandai S.H. Figuarts Captain America & Tamashii Effect Explosion Avengers: Infinity War Action Figure
+Fiktion Action Ganes,W_ratio,85.5,The Corps Special Forces Action Figures & Vehicle Deluxe Playset (Packaging & Colors May Vary)
