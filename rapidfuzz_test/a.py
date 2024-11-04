@@ -1,99 +1,102 @@
-from rapidfuzz import fuzz
+from rapidfuzz import fuzz, process, utils
+import pandas as pd
 
-def combined_score(input_user, product_name):
-    partial = fuzz.partial_ratio(input_user, product_name)
-    token_sort = fuzz.token_sort_ratio(input_user, product_name)
-    
-    # Dar pesos diferentes a cada métrica (ajuste conforme o comportamento desejado)
-    return 0.5 * partial + 0.5 * token_sort
+dataset = pd.read_csv('./data/CleanData.csv')
 
-# Exemplo de uso:
-input_user = "Café"
-product_name = "Café Torrado e Moído"
-score = combined_score(input_user, product_name)
-print(score)  # Resultado da combinação
+print(dataset['Product Name'][6875])
 
-from rapidfuzz import process
-
-input_user = "Café"
-products = ["Café Torrado e Moído", "Café Expresso", "Café Solúvel"]
-
-best_matches = process.extract(input_user, products, scorer=fuzz.W_ratio, limit=3)
-print(best_matches)  # Retorna as 3 melhores correspondências
-
-# Definir thresholds diferentes para categorizar a qualidade da correspondência
-thresholds = {
-    'alta_qualidade': 80,
-    'media_qualidade': 60
+SCORERS = {
+    "ratio": fuzz.ratio,
+    "partial_ratio": fuzz.partial_ratio,
+    "token_sort_ratio": fuzz.token_sort_ratio,
+    "partial_token_sort_ratio": fuzz.partial_token_sort_ratio,
+    "token_set_ratio": fuzz.token_set_ratio,
+    "partial_token_set_ratio": fuzz.partial_token_set_ratio,
+    "Q_ratio": fuzz.QRatio,
+    "W_ratio": fuzz.WRatio,
 }
 
-def classificar_score(score):
-    if score >= thresholds['alta_qualidade']:
-        return "Correspondência Forte"
-    elif score >= thresholds['media_qualidade']:
-        return "Correspondência Razoável"
-    else:
-        return "Correspondência Fraca"
+def one_word_one_string(user_input, products, scorers, limit=3):
+
+    teste1 = pd.DataFrame(columns=['input', 'scorer_name', 'scorer_value', 'product_name'])
+    for input in user_input:
+        for key, value in scorers.items():
+            matches = process.extract(input, products, scorer=value, limit=limit, processor=utils.default_process)
+            df_aux = pd.DataFrame({
+                'input':[input] * len(matches),
+                'scorer_name':[key] * len(matches), 
+                'scorer_value':[match[1] for match in matches], 
+                'product_name':[match[0] for match in matches]
+            })
+            teste1 = pd.concat([teste1, df_aux], ignore_index=True)
+    return  teste1
+
+def n_word_one_string(user_input, products, scorers, limit=3):
     
-from rapidfuzz import process, fuzz
+    teste2 = pd.DataFrame(columns=['input', 'scorer_name', 'scorer_value', 'product_name'])
+    for input in user_input:
+        for key, value in scorers.items():
+            matches = process.extract(input, products, scorer=value, limit=limit, processor=utils.default_process)
+            df_aux = pd.DataFrame({
+                'input':[input] * len(matches),
+                'scorer_name':[key] * len(matches), 
+                'scorer_value':[match[1] for match in matches], 
+                'product_name':[match[0] for match in matches]
+            })
+            teste2 = pd.concat([teste2, df_aux], ignore_index=True)
+    return  teste2
 
-products = ["Café Torrado e Moído", "Café Expresso", "Café Solúvel"]
+def one_word_n_string(user_input, products, scorers, limit=3):
 
-def combined_score(input_user, product_name):
-    w_ratio = fuzz.W_ratio(input_user, product_name)
-    partial = fuzz.partial_ratio(input_user, product_name)
-    token_sort = fuzz.token_sort_ratio(input_user, product_name)
-    
-    # Ajuste de ponderações
-    return 0.5 * w_ratio + 0.3 * partial + 0.2 * token_sort
+    teste3 = pd.DataFrame(columns=['input', 'scorer_name', 'scorer_value', 'product_name'])
+    for input in user_input:
+        for key, value in scorers.items():
+            matches = process.extract(input, products, scorer=value, limit=limit, processor=utils.default_process)
+            df_aux = pd.DataFrame({'input':input, 'scorer_name':key, 
+                    'scorer_value':[matches[0][1], matches[1][1], matches[2][1]], 
+                    'product_name':[matches[0][0], matches[1][0], matches[2][0]],
+                    },index=[0])
+            teste3 = pd.concat([teste3, df_aux], ignore_index=True)
+    return  teste3
 
-# Usando process.extract com uma função de score personalizada
-input_user = "Café Moído"
-best_matches = process.extract(input_user, products, scorer=combined_score, limit=3)
-print(best_matches)
+def n_word_n_string(user_input, products, scorers, limit=3):
 
-from rapidfuzz import process, fuzz
+    teste4 = pd.DataFrame(columns=['input', 'scorer_name', 'scorer_value', 'product_name'])
+    for input in user_input:
+        for key, value in scorers.items():
+            matches = process.extract(input, products, scorer=value, limit=limit, processor=utils.default_process)
+            df_aux = pd.DataFrame({'input':input, 'scorer_name':key, 
+                    'scorer_value':[matches[0][1], matches[1][1], matches[2][1]], 
+                    'product_name':[matches[0][0], matches[1][0], matches[2][0]],
+                    },index=[0])
+            teste4 = pd.concat([teste4, df_aux], ignore_index=True)
+    return  teste4
 
-# Função para realizar os testes
-def testar_inputs(input_user, products, divisor=None, scorer=fuzz.W_ratio, limit=3):
-    # Caso haja divisor, quebrar o input em partes
-    if divisor:
-        inputs = [i.strip() for i in input_user.split(divisor)]
-    else:
-        inputs = [input_user]
+products_list = dataset["Product Name"]
 
-    resultados = {}
-    
-    # Testar cada input individualmente
-    for inp in inputs:
-        best_matches = process.extract(inp, products, scorer=scorer, limit=limit)
-        resultados[inp] = best_matches
+limit = 2
 
-    return resultados
+lista_df = []
 
-# Base de dados de produtos
-products = ["Café Torrado e Moído", "Café Expresso", "Açúcar Refinado", "Leite Desnatado", "Chá Verde"]
-
-# Cenários de teste
-cenarios = [
-    {"input": "Café", "divisor": None},  # Input de uma palavra
-    {"input": "Café; Açúcar; Leite", "divisor": ";"},  # Múltiplos inputs de uma palavra
-    {"input": "Café Torrado e Moído", "divisor": None},  # Input de muitas palavras
-    {"input": "Café Torrado; Açúcar Refinado; Leite Desnatado", "divisor": ";"},  # Múltiplos inputs de muitas palavras
-    {"input": "Cafe", "divisor": None},  # Input com erro de digitação
+scenarios = [
+    ["Fantail"],
+    ["Non Fiction Educational Games"],
+    ["Learninc", "Turqooise", "Fection"],
+    ["Fantaik Bools", "Junior Books", "Fiktion Action Ganes"]
 ]
 
-# Testar cada cenário
-for cenario in cenarios:
-    input_test = cenario["input"]
-    divisor = cenario["divisor"]
-    
-    print(f"Testando input: '{input_test}'")
-    resultados = testar_inputs(input_test, products, divisor)
-    
-    for input_user, matches in resultados.items():
-        print(f"Melhores correspondências para '{input_user}':")
-        for match, score, _ in matches:
-            print(f" - {match}: {score}")
-    print("\n" + "-"*50 + "\n")
+df1 = one_word_one_string(user_input=scenarios[2], products=products_list, scorers=SCORERS, limit=limit)
+df2 = n_word_one_string(user_input=scenarios[3], products=products_list, scorers=SCORERS, limit=limit)
+# df3 = one_word_n_string(user_input=scenarios[2], products=products_list, scorers=SCORERS)
+# df4 = n_word_n_string(user_input=scenarios[3], products=products_list, scorers=SCORERS)
 
+lista_df.append(df1)
+lista_df.append(df2)
+# lista_df.append(df1)
+# lista_df.append(df1)
+
+df_final = pd.concat(lista_df, ignore_index=True)
+
+print(df_final)
+
+df_final.to_csv('./rapidfuzz_test/check2.csv', index=False)
