@@ -1,0 +1,129 @@
+input,scorer_name,scorer_value,product_name
+Learning,ratio,52.63157894736843,Party Bingo
+Learning,ratio,47.05882352941176,Teach My Baby Learning Kit
+Learning,partial_ratio,100.0,"The Learning Journey ABC Melody Maker, Primary"
+Learning,partial_ratio,100.0,"Learning Resources Serve It Up! Play Restaurant, Pretend Restaurant Set, 35 Pieces, Ages 3+"
+Learning,token_sort_ratio,53.84615384615385,Ringing Basketball
+Learning,token_sort_ratio,50.0,Zing Sky Gliderz
+Learning,partial_token_sort_ratio,100.0,"The Learning Journey ABC Melody Maker, Primary"
+Learning,partial_token_sort_ratio,100.0,"Learning Resources Serve It Up! Play Restaurant, Pretend Restaurant Set, 35 Pieces, Ages 3+"
+Learning,token_set_ratio,100.0,"The Learning Journey ABC Melody Maker, Primary"
+Learning,token_set_ratio,100.0,"Learning Resources Serve It Up! Play Restaurant, Pretend Restaurant Set, 35 Pieces, Ages 3+"
+Learning,partial_token_set_ratio,100.0,"The Learning Journey ABC Melody Maker, Primary"
+Learning,partial_token_set_ratio,100.0,"Learning Resources Serve It Up! Play Restaurant, Pretend Restaurant Set, 35 Pieces, Ages 3+"
+Learning,Q_ratio,52.63157894736843,Party Bingo
+Learning,Q_ratio,47.05882352941176,Teach My Baby Learning Kit
+Learning,W_ratio,90.0,"The Learning Journey ABC Melody Maker, Primary"
+Learning,W_ratio,90.0,"Carson-Dellosa Publishing Language Arts Learning Games, Grade 2"
+Turquoise,ratio,47.05882352941176,Quoridor
+Turquoise,ratio,44.44444444444444,Crossfire
+Turquoise,partial_ratio,100.0,"PRANG Refill Pans for Oval Watercolor Paint Set, 12 Pans per Box, Turquoise Blue (00819)"
+Turquoise,partial_ratio,100.0,"Lush Decor Llama Striped Quilt Reversible 4 Piece Kids Bedding Set, Twin, Pink and Turquoise"
+Turquoise,token_sort_ratio,48.0,DJECO Batasaurus
+Turquoise,token_sort_ratio,47.05882352941176,Quoridor
+Turquoise,partial_token_sort_ratio,100.0,"PRANG Refill Pans for Oval Watercolor Paint Set, 12 Pans per Box, Turquoise Blue (00819)"
+Turquoise,partial_token_sort_ratio,100.0,"Lush Decor Llama Striped Quilt Reversible 4 Piece Kids Bedding Set, Twin, Pink and Turquoise"
+Turquoise,token_set_ratio,100.0,"PRANG Refill Pans for Oval Watercolor Paint Set, 12 Pans per Box, Turquoise Blue (00819)"
+Turquoise,token_set_ratio,100.0,"Lush Decor Llama Striped Quilt Reversible 4 Piece Kids Bedding Set, Twin, Pink and Turquoise"
+Turquoise,partial_token_set_ratio,100.0,"PRANG Refill Pans for Oval Watercolor Paint Set, 12 Pans per Box, Turquoise Blue (00819)"
+Turquoise,partial_token_set_ratio,100.0,"Lush Decor Llama Striped Quilt Reversible 4 Piece Kids Bedding Set, Twin, Pink and Turquoise"
+Turquoise,Q_ratio,47.05882352941176,Quoridor
+Turquoise,Q_ratio,44.44444444444444,Crossfire
+Turquoise,W_ratio,90.0,"SugarSugar Dance Craze Leg Warmers, Turquoise, One Size"
+Turquoise,W_ratio,90.0,"SunWorks Construction Paper, Turquoise, 9"" x 12"", 50 Sheets"
+Fiction,ratio,46.15384615384615,Qwinto
+Fiction,ratio,44.44444444444444,Cosmic Eons
+Fiction,partial_ratio,100.0,Junior Learning Blend Readers Fiction Toy
+Fiction,partial_ratio,100.0,Edupress Fact or Fiction? Game (EP60268)
+Fiction,token_sort_ratio,46.15384615384615,Qwinto
+Fiction,token_sort_ratio,44.44444444444444,Cosmic Eons
+Fiction,partial_token_sort_ratio,100.0,Junior Learning Blend Readers Fiction Toy
+Fiction,partial_token_sort_ratio,100.0,Edupress Fact or Fiction? Game (EP60268)
+Fiction,token_set_ratio,100.0,Junior Learning Blend Readers Fiction Toy
+Fiction,token_set_ratio,100.0,Edupress Fact or Fiction? Game (EP60268)
+Fiction,partial_token_set_ratio,100.0,Junior Learning Blend Readers Fiction Toy
+Fiction,partial_token_set_ratio,100.0,Edupress Fact or Fiction? Game (EP60268)
+Fiction,Q_ratio,46.15384615384615,Qwinto
+Fiction,Q_ratio,44.44444444444444,Cosmic Eons
+Fiction,W_ratio,90.0,Junior Learning Blend Readers Fiction Toy
+Fiction,W_ratio,90.0,Edupress Fact or Fiction? Game (EP60268)
+Learninc,ratio,50.0,Pandemic
+Learninc,ratio,42.10526315789473,Learning Resources Pan Balance
+Learninc,partial_ratio,93.33333333333333,"Learning Resources Serve It Up! Play Restaurant, Pretend Restaurant Set, 35 Pieces, Ages 3+"
+Learninc,partial_ratio,93.33333333333333,"Learning Resources Base Ten Blocks Smart Pack, Early Childhood Math Skills, Ages 5+"
+Learninc,token_sort_ratio,50.0,Pandemic
+Learninc,token_sort_ratio,47.05882352941176,Teach My Baby Learning Kit
+Learninc,partial_token_sort_ratio,93.33333333333333,VTech Rattle & Waggle Learning Pup
+Learninc,partial_token_sort_ratio,87.5,"The Learning Journey ABC Melody Maker, Primary"
+Learninc,token_set_ratio,50.0,Pandemic
+Learninc,token_set_ratio,47.05882352941177,Teach My Baby Learning Kit
+Learninc,partial_token_set_ratio,93.33333333333333,VTech Rattle & Waggle Learning Pup
+Learninc,partial_token_set_ratio,87.5,"The Learning Journey ABC Melody Maker, Primary"
+Learninc,Q_ratio,50.0,Pandemic
+Learninc,Q_ratio,42.10526315789473,Learning Resources Pan Balance
+Learninc,W_ratio,84.0,Learning Resources Attribute Beads Set
+Learninc,W_ratio,84.0,"Learning Resources Tabletop Tripod Magnifier, 4x Magnifier"
+Turqooise,ratio,46.15384615384615,"Aurora 8"" Woolsey"
+Turqooise,ratio,44.44444444444444,Crossfire
+Turqooise,partial_ratio,88.88888888888889,"PRANG Refill Pans for Oval Watercolor Paint Set, 12 Pans per Box, Turquoise Blue (00819)"
+Turqooise,partial_ratio,88.88888888888889,"Lush Decor Llama Striped Quilt Reversible 4 Piece Kids Bedding Set, Twin, Pink and Turquoise"
+Turqooise,token_sort_ratio,48.0,"Aurora 8"" Woolsey"
+Turqooise,token_sort_ratio,44.44444444444444,Crossfire
+Turqooise,partial_token_sort_ratio,88.88888888888889,"PRANG Refill Pans for Oval Watercolor Paint Set, 12 Pans per Box, Turquoise Blue (00819)"
+Turqooise,partial_token_sort_ratio,88.88888888888889,"Lush Decor Llama Striped Quilt Reversible 4 Piece Kids Bedding Set, Twin, Pink and Turquoise"
+Turqooise,token_set_ratio,48.0,"Aurora 8"" Woolsey"
+Turqooise,token_set_ratio,44.44444444444444,Crossfire
+Turqooise,partial_token_set_ratio,88.88888888888889,"PRANG Refill Pans for Oval Watercolor Paint Set, 12 Pans per Box, Turquoise Blue (00819)"
+Turqooise,partial_token_set_ratio,88.88888888888889,"Lush Decor Llama Striped Quilt Reversible 4 Piece Kids Bedding Set, Twin, Pink and Turquoise"
+Turqooise,Q_ratio,46.15384615384615,"Aurora 8"" Woolsey"
+Turqooise,Q_ratio,44.44444444444444,Crossfire
+Turqooise,W_ratio,80.0,"SugarSugar Dance Craze Leg Warmers, Turquoise, One Size"
+Turqooise,W_ratio,80.0,"SunWorks Construction Paper, Turquoise, 9"" x 12"", 50 Sheets"
+Fection,ratio,44.44444444444444,Cosmic Eons
+Fection,ratio,44.44444444444444,Specter Ops
+Fection,partial_ratio,100.0,"Purr-Fection Smoky Junior Black Bear 9"" Plush"
+Fection,partial_ratio,92.3076923076923,"Whitmor Kids Canvas Collapsible Cube-10 x 10 x 10 inches, Pink, Owl Collection"
+Fection,token_sort_ratio,47.05882352941176,Simon Game
+Fection,token_sort_ratio,44.44444444444444,Cosmic Eons
+Fection,partial_token_sort_ratio,100.0,"Purr-Fection Smoky Junior Black Bear 9"" Plush"
+Fection,partial_token_sort_ratio,85.71428571428572,amscan Thank Yous | Hello Kitty Collection | Party Accessory
+Fection,token_set_ratio,100.0,"Purr-Fection Smoky Junior Black Bear 9"" Plush"
+Fection,token_set_ratio,47.05882352941177,Simon Game
+Fection,partial_token_set_ratio,100.0,"Purr-Fection Smoky Junior Black Bear 9"" Plush"
+Fection,partial_token_set_ratio,85.71428571428572,amscan Thank Yous | Hello Kitty Collection | Party Accessory
+Fection,Q_ratio,44.44444444444444,Cosmic Eons
+Fection,Q_ratio,44.44444444444444,Specter Ops
+Fection,W_ratio,90.0,"Purr-Fection Smoky Junior Black Bear 9"" Plush"
+Fection,W_ratio,83.07692307692308,Mongoose Kids Mountain Bike Helmet Zone Collection
+Learning Fantail Books,ratio,60.0,Learning Advantage Wood Pattern Blocks
+Learning Fantail Books,ratio,52.63157894736843,Learning Resources Feet By The Foot
+Learning Fantail Books,partial_ratio,100.0,Junior Learning Fantail Books Turquoise Non Fiction Educational Action Games
+Learning Fantail Books,partial_ratio,72.72727272727273,Learning Advantage Wood Pattern Blocks
+Learning Fantail Books,token_sort_ratio,55.00000000000001,Ringing Basketball
+Learning Fantail Books,token_sort_ratio,52.83018867924528,Junior Learning Homonym Puzzles
+Learning Fantail Books,partial_token_sort_ratio,68.18181818181819,"Learning Resources Hands-On Soft Geosolids, Soft Foam 3D Shapes, Set of 12, Ages 5+"
+Learning Fantail Books,partial_token_sort_ratio,68.18181818181819,"Learning Resources Rainbow Sorting Crayons, Various Colors, 56 Pieces"
+Learning Fantail Books,token_set_ratio,100.0,Junior Learning Fantail Books Turquoise Non Fiction Educational Action Games
+Learning Fantail Books,token_set_ratio,58.333333333333336,Teach My Baby Learning Kit
+Learning Fantail Books,partial_token_set_ratio,100.0,"The Learning Journey ABC Melody Maker, Primary"
+Learning Fantail Books,partial_token_set_ratio,100.0,"Learning Resources Serve It Up! Play Restaurant, Pretend Restaurant Set, 35 Pieces, Ages 3+"
+Learning Fantail Books,Q_ratio,60.0,Learning Advantage Wood Pattern Blocks
+Learning Fantail Books,Q_ratio,52.63157894736843,Learning Resources Feet By The Foot
+Learning Fantail Books,W_ratio,90.0,Junior Learning Fantail Books Turquoise Non Fiction Educational Action Games
+Learning Fantail Books,W_ratio,85.5,"The Learning Journey ABC Melody Maker, Primary"
+Learninc Fentail Bools,ratio,56.14035087719298,Learning Resources Feet By The Foot
+Learninc Fentail Bools,ratio,53.84615384615385,Learning Resources Brain Model
+Learninc Fentail Bools,partial_ratio,86.36363636363636,Junior Learning Fantail Books Turquoise Non Fiction Educational Action Games
+Learninc Fentail Bools,partial_ratio,68.18181818181819,"LoftWorks BP-601 My First Body Kid and Toddlers-100% Cotton Unbleached, Hypo-allergenic Fill Bolster Shape Pillow for Hug & Sleep"
+Learninc Fentail Bools,token_sort_ratio,55.00000000000001,Ringing Basketball
+Learninc Fentail Bools,token_sort_ratio,52.0,Enchantimals Lorna Lamb Doll
+Learninc Fentail Bools,partial_token_sort_ratio,68.18181818181819,"Learning Resources Pattern Blocks Smart Pack, Developmental Toy, Shapes, Patterns, 50 Pieces"
+Learninc Fentail Bools,partial_token_sort_ratio,63.63636363636363,"Learning Resources Base Ten Blocks Smart Pack, Early Childhood Math Skills, Ages 5+"
+Learninc Fentail Bools,token_set_ratio,55.0,Ringing Basketball
+Learninc Fentail Bools,token_set_ratio,52.0,Enchantimals Lorna Lamb Doll
+Learninc Fentail Bools,partial_token_set_ratio,68.18181818181819,"Learning Resources Pattern Blocks Smart Pack, Developmental Toy, Shapes, Patterns, 50 Pieces"
+Learninc Fentail Bools,partial_token_set_ratio,63.63636363636363,"Learning Resources Base Ten Blocks Smart Pack, Early Childhood Math Skills, Ages 5+"
+Learninc Fentail Bools,Q_ratio,56.14035087719298,Learning Resources Feet By The Foot
+Learninc Fentail Bools,Q_ratio,53.84615384615385,Learning Resources Brain Model
+Learninc Fentail Bools,W_ratio,77.72727272727272,Junior Learning Fantail Books Turquoise Non Fiction Educational Action Games
+Learninc Fentail Bools,W_ratio,61.36363636363637,"LoftWorks BP-601 My First Body Kid and Toddlers-100% Cotton Unbleached, Hypo-allergenic Fill Bolster Shape Pillow for Hug & Sleep"

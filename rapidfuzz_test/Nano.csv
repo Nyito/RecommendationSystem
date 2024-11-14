@@ -1,0 +1,97 @@
+input,scorer_name,scorer_value,product_name
+Nanoblock,ratio,50.0,Pan Balance
+Nanoblock,ratio,47.36842105263158,Nanoblock Beagle Building Sey
+Nanoblock,partial_ratio,100.0,Nanoblock Beagle Building Sey
+Nanoblock,partial_ratio,100.0,Nanoblock Birthday Cake Building Kit
+Nanoblock,token_sort_ratio,47.36842105263158,Nanoblock Beagle Building Sey
+Nanoblock,token_sort_ratio,41.379310344827594,Armored Black Knight
+Nanoblock,partial_token_sort_ratio,100.0,Nanoblock Beagle Building Sey
+Nanoblock,partial_token_sort_ratio,100.0,Nanoblock Birthday Cake Building Kit
+Nanoblock,token_set_ratio,100.0,Nanoblock Beagle Building Sey
+Nanoblock,token_set_ratio,100.0,Nanoblock Birthday Cake Building Kit
+Nanoblock,partial_token_set_ratio,100.0,Nanoblock Beagle Building Sey
+Nanoblock,partial_token_set_ratio,100.0,Nanoblock Birthday Cake Building Kit
+Nanoblock,Q_ratio,50.0,Pan Balance
+Nanoblock,Q_ratio,47.36842105263158,Nanoblock Beagle Building Sey
+Nanoblock,W_ratio,90.0,Nanoblock Beagle Building Sey
+Nanoblock,W_ratio,90.0,Nanoblock Birthday Cake Building Kit
+Birthday,ratio,48.484848484848484,30th Birthday Fabric Sash
+Birthday,ratio,45.714285714285715,Slither.io™ Birthday Candle
+Birthday,partial_ratio,100.0,"Happy Birthday Jointed Letter Banner, Under Construction"
+Birthday,partial_ratio,100.0,"amscan Frozen 2 Birthday, Metallic Blowouts, Party Favor, 7.25"", 8 Ct."
+Birthday,token_sort_ratio,52.63157894736843,Party Bingo
+Birthday,token_sort_ratio,48.484848484848484,30th Birthday Fabric Sash
+Birthday,partial_token_sort_ratio,100.0,"Happy Birthday Jointed Letter Banner, Under Construction"
+Birthday,partial_token_sort_ratio,100.0,"amscan Frozen 2 Birthday, Metallic Blowouts, Party Favor, 7.25"", 8 Ct."
+Birthday,token_set_ratio,100.0,"Happy Birthday Jointed Letter Banner, Under Construction"
+Birthday,token_set_ratio,100.0,"amscan Frozen 2 Birthday, Metallic Blowouts, Party Favor, 7.25"", 8 Ct."
+Birthday,partial_token_set_ratio,100.0,"Happy Birthday Jointed Letter Banner, Under Construction"
+Birthday,partial_token_set_ratio,100.0,"amscan Frozen 2 Birthday, Metallic Blowouts, Party Favor, 7.25"", 8 Ct."
+Birthday,Q_ratio,48.484848484848484,30th Birthday Fabric Sash
+Birthday,Q_ratio,45.714285714285715,Slither.io™ Birthday Candle
+Birthday,W_ratio,90.0,"Happy Birthday Jointed Letter Banner, Under Construction"
+Birthday,W_ratio,90.0,Plates | Superstar Ball Sports Collection | Birthday | 144 Ct.
+Building,ratio,45.714285714285715,"Ambi Toys, Building Beakers"
+Building,ratio,43.24324324324324,Nanoblock Beagle Building Sey
+Building,partial_ratio,100.0,Guillow Airplane Design Studio with Travel Case Building Kit
+Building,partial_ratio,100.0,"PLUS PLUS - Construction Building Toy, Open Play Set - 3,600 Pieces with Storage Tub - Basic Color Mix"
+Building,token_sort_ratio,47.05882352941176,"Ambi Toys, Building Beakers"
+Building,token_sort_ratio,43.24324324324324,Swing-N-Slide Blue Child Seat
+Building,partial_token_sort_ratio,100.0,Guillow Airplane Design Studio with Travel Case Building Kit
+Building,partial_token_sort_ratio,100.0,"PLUS PLUS - Construction Building Toy, Open Play Set - 3,600 Pieces with Storage Tub - Basic Color Mix"
+Building,token_set_ratio,100.0,Guillow Airplane Design Studio with Travel Case Building Kit
+Building,token_set_ratio,100.0,"PLUS PLUS - Construction Building Toy, Open Play Set - 3,600 Pieces with Storage Tub - Basic Color Mix"
+Building,partial_token_set_ratio,100.0,Guillow Airplane Design Studio with Travel Case Building Kit
+Building,partial_token_set_ratio,100.0,"PLUS PLUS - Construction Building Toy, Open Play Set - 3,600 Pieces with Storage Tub - Basic Color Mix"
+Building,Q_ratio,45.714285714285715,"Ambi Toys, Building Beakers"
+Building,Q_ratio,43.24324324324324,Nanoblock Beagle Building Sey
+Building,W_ratio,90.0,Guillow Airplane Design Studio with Travel Case Building Kit
+Building,W_ratio,90.0,LEGO Friends Heartlake Surf Shop 41315 Building Kit (186 Pieces)
+Nanoblock Birthday Cake,ratio,77.96610169491525,Nanoblock Birthday Cake Building Kit
+Nanoblock Birthday Cake,ratio,60.0,Slither.io™ Birthday Candle
+Nanoblock Birthday Cake,partial_ratio,100.0,Nanoblock Birthday Cake Building Kit
+Nanoblock Birthday Cake,partial_ratio,69.56521739130434,Hape Double Flavored Birthday Cake Kid's Wooden Play Kitchen Toys and Accessories
+Nanoblock Birthday Cake,token_sort_ratio,77.96610169491525,Nanoblock Birthday Cake Building Kit
+Nanoblock Birthday Cake,token_sort_ratio,61.224489795918366,Slither.io™ Birthday Candle
+Nanoblock Birthday Cake,partial_token_sort_ratio,73.91304347826086,"Colorflame Birthday Candles With Colored Flames - Birthday, Party, Cake Decor - 12 Candles Per Box"
+Nanoblock Birthday Cake,partial_token_sort_ratio,73.91304347826086,Hape Double Flavored Birthday Cake Kid's Wooden Play Kitchen Toys and Accessories
+Nanoblock Birthday Cake,token_set_ratio,100.0,Nanoblock Birthday Cake Building Kit
+Nanoblock Birthday Cake,token_set_ratio,72.22222222222223,"All About Details CATHE60 Hello 60 Cake, 1pc, 60th Birthday, Party Decor, Glitter Topper (Gold & Black), 6 x 9,"
+Nanoblock Birthday Cake,partial_token_set_ratio,100.0,"Happy Birthday Jointed Letter Banner, Under Construction"
+Nanoblock Birthday Cake,partial_token_set_ratio,100.0,"amscan Frozen 2 Birthday, Metallic Blowouts, Party Favor, 7.25"", 8 Ct."
+Nanoblock Birthday Cake,Q_ratio,77.96610169491525,Nanoblock Birthday Cake Building Kit
+Nanoblock Birthday Cake,Q_ratio,60.0,Slither.io™ Birthday Candle
+Nanoblock Birthday Cake,W_ratio,90.0,Nanoblock Birthday Cake Building Kit
+Nanoblock Birthday Cake,W_ratio,85.5,"Happy Birthday Jointed Letter Banner, Under Construction"
+Birthday Cake Kit,ratio,64.15094339622642,Nanoblock Birthday Cake Building Kit
+Birthday Cake Kit,ratio,57.14285714285714,Birthday Princess Flashing Tiara
+Birthday Cake Kit,partial_ratio,94.11764705882352,Hape Double Flavored Birthday Cake Kid's Wooden Play Kitchen Toys and Accessories
+Birthday Cake Kit,partial_ratio,88.23529411764706,Nanoblock Birthday Cake Building Kit
+Birthday Cake Kit,token_sort_ratio,69.76744186046511,Slither.io™ Birthday Candle
+Birthday Cake Kit,token_sort_ratio,64.15094339622642,Nanoblock Birthday Cake Building Kit
+Birthday Cake Kit,partial_token_sort_ratio,100.0,"Amscan 100052 Party Supplies 1st Birthday Pink Mini Cake Stand Kit, One Size, Multi"
+Birthday Cake Kit,partial_token_sort_ratio,82.35294117647058,Slither.io™ Birthday Candle
+Birthday Cake Kit,token_set_ratio,100.0,Nanoblock Birthday Cake Building Kit
+Birthday Cake Kit,token_set_ratio,100.0,"Amscan 100052 Party Supplies 1st Birthday Pink Mini Cake Stand Kit, One Size, Multi"
+Birthday Cake Kit,partial_token_set_ratio,100.0,Guillow Airplane Design Studio with Travel Case Building Kit
+Birthday Cake Kit,partial_token_set_ratio,100.0,"The Complete Common Core: State Standards Kit, Grade 5"
+Birthday Cake Kit,Q_ratio,64.15094339622642,Nanoblock Birthday Cake Building Kit
+Birthday Cake Kit,Q_ratio,57.14285714285714,Birthday Princess Flashing Tiara
+Birthday Cake Kit,W_ratio,85.5,Guillow Airplane Design Studio with Travel Case Building Kit
+Birthday Cake Kit,W_ratio,85.5,"The Complete Common Core: State Standards Kit, Grade 5"
+Nanoblock Building Kit,ratio,75.86206896551724,Nanoblock Birthday Cake Building Kit
+Nanoblock Building Kit,ratio,74.50980392156863,Nanoblock Beagle Building Sey
+Nanoblock Building Kit,partial_ratio,81.08108108108108,BRICTEK Crane with Truck Building Kit
+Nanoblock Building Kit,partial_ratio,78.94736842105263,Nanoblock Birthday Cake Building Kit
+Nanoblock Building Kit,token_sort_ratio,75.86206896551724,Nanoblock Birthday Cake Building Kit
+Nanoblock Building Kit,token_sort_ratio,70.58823529411764,Nanoblock Beagle Building Sey
+Nanoblock Building Kit,partial_token_sort_ratio,81.81818181818181,Nanoblock Beagle Building Sey
+Nanoblock Building Kit,partial_token_sort_ratio,77.77777777777779,Nanoblock Birthday Cake Building Kit
+Nanoblock Building Kit,token_set_ratio,100.0,Nanoblock Birthday Cake Building Kit
+Nanoblock Building Kit,token_set_ratio,90.0,Nanoblock Beagle Building Sey
+Nanoblock Building Kit,partial_token_set_ratio,100.0,Guillow Airplane Design Studio with Travel Case Building Kit
+Nanoblock Building Kit,partial_token_set_ratio,100.0,"The Complete Common Core: State Standards Kit, Grade 5"
+Nanoblock Building Kit,Q_ratio,75.86206896551724,Nanoblock Birthday Cake Building Kit
+Nanoblock Building Kit,Q_ratio,74.50980392156863,Nanoblock Beagle Building Sey
+Nanoblock Building Kit,W_ratio,85.5,Guillow Airplane Design Studio with Travel Case Building Kit
+Nanoblock Building Kit,W_ratio,85.5,"The Complete Common Core: State Standards Kit, Grade 5"

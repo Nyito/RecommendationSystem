@@ -49,27 +49,27 @@ def n_word_one_string(user_input, products, scorers, limit=3):
 def one_word_n_string(user_input, products, scorers, limit=3):
 
     teste3 = pd.DataFrame(columns=['input', 'scorer_name', 'scorer_value', 'product_name'])
-    for input in user_input:
-        for key, value in scorers.items():
-            matches = process.extract(input, products, scorer=value, limit=limit, processor=utils.default_process)
-            df_aux = pd.DataFrame({'input':input, 'scorer_name':key, 
-                    'scorer_value':[matches[0][1], matches[1][1], matches[2][1]], 
-                    'product_name':[matches[0][0], matches[1][0], matches[2][0]],
-                    },index=[0])
-            teste3 = pd.concat([teste3, df_aux], ignore_index=True)
+    
+    for key, value in scorers.items():
+        matches = process.extract(input, products, scorer=value, limit=limit, processor=utils.default_process)
+        df_aux = pd.DataFrame({'input':input, 'scorer_name':key, 
+                'scorer_value':[matches[0][1], matches[1][1], matches[2][1]], 
+                'product_name':[matches[0][0], matches[1][0], matches[2][0]],
+                },index=[0])
+        teste3 = pd.concat([teste3, df_aux], ignore_index=True)
     return  teste3
 
 def n_word_n_string(user_input, products, scorers, limit=3):
 
     teste4 = pd.DataFrame(columns=['input', 'scorer_name', 'scorer_value', 'product_name'])
-    for input in user_input:
-        for key, value in scorers.items():
-            matches = process.extract(input, products, scorer=value, limit=limit, processor=utils.default_process)
-            df_aux = pd.DataFrame({'input':input, 'scorer_name':key, 
-                    'scorer_value':[matches[0][1], matches[1][1], matches[2][1]], 
-                    'product_name':[matches[0][0], matches[1][0], matches[2][0]],
-                    },index=[0])
-            teste4 = pd.concat([teste4, df_aux], ignore_index=True)
+    
+    for key, value in scorers.items():
+        matches = process.extract(input, products, scorer=value, limit=limit, processor=utils.default_process)
+        df_aux = pd.DataFrame({'input':input, 'scorer_name':key, 
+                'scorer_value':[matches[0][1], matches[1][1], matches[2][1]], 
+                'product_name':[matches[0][0], matches[1][0], matches[2][0]],
+                },index=[0])
+        teste4 = pd.concat([teste4, df_aux], ignore_index=True)
     return  teste4
 
 products_list = dataset["Product Name"]
@@ -78,25 +78,45 @@ limit = 2
 
 lista_df = []
 
-scenarios = [
-    ["Fantail"],
-    ["Non Fiction Educational Games"],
-    ["Learninc", "Turqooise", "Fection"],
-    ["Fantaik Bools", "Junior Books", "Fiktion Action Ganes"]
-]
+# scenarios = [
+#     ["Fantail"],
+#     ["Non Fiction Educational Games"],
+#     ["Learninc", "Turqooise", "Fection"],
+#     ["Fantaik Bools", "Junior Books", "Fiktion Action Ganes"]
+# ]
 
-df1 = one_word_one_string(user_input=scenarios[2], products=products_list, scorers=SCORERS, limit=limit)
-df2 = n_word_one_string(user_input=scenarios[3], products=products_list, scorers=SCORERS, limit=limit)
+#### Teste Learning ####
+# scenarios = [
+#     ["Learning", "Turquoise", "Fiction"],
+#     ["Learninc", "Turqooise", "Fection"],
+#     ["Learning Fantail Books"],
+#     ["Learninc Fentail Bools"]
+# ]
+#### Teste Learning ####
+
+#### Teste Nano ####
+scenarios = [
+    ["Nanoblock"],
+    ["Nanoblock", "Birthday", "Building"],
+    ["Nanoblock Building Kit"],
+    ["Nanoblock Birthday Cake", "Birthday Cake Kit", "Nanoblock Building Kit"]
+]
+#### Teste Nano ####
+
+# df1 = one_word_one_string(user_input=scenarios[0], products=products_list, scorers=SCORERS, limit=limit)
+df3 = one_word_one_string(user_input=scenarios[1], products=products_list, scorers=SCORERS, limit=limit)
+# df2 = n_word_one_string(user_input=scenarios[2], products=products_list, scorers=SCORERS, limit=limit)
+df4 = n_word_one_string(user_input=scenarios[3], products=products_list, scorers=SCORERS, limit=limit)
 # df3 = one_word_n_string(user_input=scenarios[2], products=products_list, scorers=SCORERS)
 # df4 = n_word_n_string(user_input=scenarios[3], products=products_list, scorers=SCORERS)
 
-lista_df.append(df1)
-lista_df.append(df2)
 # lista_df.append(df1)
-# lista_df.append(df1)
+lista_df.append(df3)
+# lista_df.append(df2)
+lista_df.append(df4)
 
 df_final = pd.concat(lista_df, ignore_index=True)
 
 print(df_final)
 
-df_final.to_csv('./rapidfuzz_test/check2.csv', index=False)
+df_final.to_csv('./rapidfuzz_test/Nano.csv', index=False)
